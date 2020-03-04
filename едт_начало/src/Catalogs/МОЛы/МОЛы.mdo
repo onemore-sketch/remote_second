@@ -10,7 +10,7 @@
   <name>МОЛы</name>
   <synonym>
     <key>ru</key>
-    <value>МОЛы</value>
+    <value>МОЛы синонимишко</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.МОЛы.StandardAttribute.Description</inputByString>
