@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52fe958b-96fe-46ec-9fcc-f8f164be69c9">
+  <producedTypes>
+    <objectType typeId="4f60f52a-6fb7-4809-9d76-51ad67378f9d" valueTypeId="73eba730-d348-41ec-8e77-20b3a7d72388"/>
+    <refType typeId="a538875b-a457-481d-a224-7573a7829f3d" valueTypeId="3bbe4d1b-bf54-4f47-9306-eedf24e6f491"/>
+    <selectionType typeId="fcc59168-e719-46f8-b0f5-38c5399b3d94" valueTypeId="b9b57160-03be-45ab-b857-5e3c775c6193"/>
+    <listType typeId="825b5259-db08-4819-8cf1-3352ead9ad33" valueTypeId="649aa539-00d4-4649-a76f-c0d3af16c893"/>
+    <managerType typeId="bf3583ae-be53-42b9-9ba3-213c05b1a9bc" valueTypeId="46edb121-5fcb-4e3e-984c-ef9e0bcc90a0"/>
+  </producedTypes>
+  <name>МОЛы</name>
+  <synonym>
+    <key>ru</key>
+    <value>МОЛы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МОЛы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МОЛы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

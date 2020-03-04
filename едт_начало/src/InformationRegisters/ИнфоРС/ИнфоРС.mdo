@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0102ed95-c665-45e7-817c-66a11cccd984">
+  <producedTypes>
+    <selectionType typeId="51dd20a7-7aeb-4905-9677-0f8c3a9394a1" valueTypeId="e89f8681-0461-453c-a140-18490b1373c0"/>
+    <listType typeId="e12859bd-d83a-451b-8c5d-80885b088f4e" valueTypeId="9384dc67-4625-42c0-b6c7-9392728a33f5"/>
+    <managerType typeId="92c1d76f-684b-4bb7-9aeb-39d495dc9adb" valueTypeId="7100cf79-3d43-46f1-a8da-72400a1c6500"/>
+    <recordSetType typeId="69ff7e87-e8e8-4c81-b876-e3303bdfa4e7" valueTypeId="0a166b1c-dcb2-4b0d-a3e7-db78aa40899c"/>
+    <recordKeyType typeId="cc031185-ec9e-42b2-b7ba-20c9ff8c2b57" valueTypeId="6fb89ec0-a0a8-4c40-9c83-7678934d7616"/>
+    <recordType typeId="b7fb8552-9c19-4632-9f9e-54f0c46b844c" valueTypeId="3ce9095e-0939-4274-a6b5-d00cd10dcc8e"/>
+    <recordManagerType typeId="03b1098a-bcf9-4e45-9326-40d62c972257" valueTypeId="fa7d037e-2acd-4753-a667-6e12ce21e2a9"/>
+  </producedTypes>
+  <name>ИнфоРС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инфо РС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f0de16bf-3c53-4737-bb8e-86431e6814be">
+    <name>МОЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МОЛ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МОЛы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c67ea91e-76fa-4dcc-843a-8cb1de4c06ce">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fa65945b-9f1f-495e-bd4a-e94e7ad21ee7">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
